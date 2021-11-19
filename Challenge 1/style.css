@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#div1 {
+    width: 432px;
+    height: 399px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    padding: 10px;
+   
+}
+
+#div2 {
+    width: 432px;
+    height: 399px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 1000px;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+
+.centrarimagen1 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.centrarimagen2 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.texto1 {
+    text-align: center;
+    color: #000000;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: sans-serif;
+    margin-top: 20px;
+
+}
+
+.texto2 {
+    text-align: center;
+    color: #000000;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+#div3 {
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    background-color: #ed6755;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+       
+    
+}
+
+#div4 {
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    background-color: #2C3E50;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 100px;
+   
+}
+
+#div3 .estabien {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    }
+
+#div4 .ampliarsesion {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.letrax {
+    font-family:sans-serif;
+    color:rgb(226, 224, 224);
+    font-size: 30px;
+    font-weight: 200;
+    text-align: right;
+    margin-top: 23px;
+    margin-right: 40px;
+    font-variant-caps:all-small-caps;
+}

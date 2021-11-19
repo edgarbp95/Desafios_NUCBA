@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    ---Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding-top: 3em;
+    font-family: 'Spartan', sans-serif;
+    background-image: url(./images/bg-pattern-top-mobile.svg),
+    url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right bottom;
+    
+}
+
+h1 {
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    width: 100%;
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+.titulo p {
+    color: var(--Very-Dark-Magenta);
+    padding-bottom: 2em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    
+}
+
+.container {
+    padding: 2em;
+    margin: 0 auto;
+   
+}
+
+.rate_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    margin-left: auto;
+   
+
+}
+
+.rate_card img{
+   padding:0.2em;
+   padding-bottom: 0.8em;
+}
+
+.rate_card{
+    color: var(--Very-Dark-Magenta) ;
+    font-weight: 600;
+    background-color:var(---Light-Grayish-Magenta);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.9rem;
+    
+
+}
+
+.reviews {
+    margin-top: 2em;
+}
+
+.review_card {
+    padding: 2.5em ;
+    margin: auto;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 0.75rem;
+    
+
+    
+}
+
+.review_card p{
+    padding-top: 2em;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+    width: 95%;
+    
+}
+
+.review_card_flex {
+    display: flex;
+    
+   
+}
+
+.review_card_flex img{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+h3{
+    font-weight: 500;
+}
+
+h4 {
+    color: var(--Soft-Pink);
+    font-weight: 400;
+    padding-top: 0.5em;
+}
+
+.nombres {
+    padding-left: 2em;
+    padding-top: 1em;
+    text-align: left;
+    
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+
+@media only screen and (min-width: 50em) {
+
+.container {
+    max-width: 90%;
+    
+}
+ 
+body{
+    height: 100vh;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right bottom;
+}
+
+h1{
+    margin-left: 0;
+    font-size: 3rem;
+    padding-bottom: 0.5em;
+    padding-top: 0.8em;
+}
+
+
+.titulo p{
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 35rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 3em;
+}
+
+
+.reviews{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    text-align: left;
+    margin:auto;
+    
+
+}
+
+.titulo {
+    grid-column: 1 / 2;
+
+}
+    
+.rate_cards {
+    grid-column: 2 / 3;
+    justify-content: center;
+    width: 65%;
+    
+    
+}
+
+
+.rate_card_1{
+    position: relative;
+    right: 8em;
+}
+.rate_card_2{
+    position: relative;
+    right: 4em;
+}
+
+
+
+
+.rate_card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1em;
+    padding-left: 2em;
+    padding-right: 6em;
+    max-width: 60rem;
+    
+}
+
+
+.review_card_2{
+    position: relative;
+    top: 1.5em;
+
+}
+
+.review_card_3{
+    position: relative;
+    top: 3em;
+
+}
+
+.rate_card p{
+    font-size:0.8rem;
+}
+
+.rate_card img{
+    padding:1px;
+
+}
+
+.review_card{
+    padding: 3em 3.5em 4em 3em;
+}
+
+.review_card h4 {
+    font-size: 0.8rem;
+}
+
+.review_card p {
+    font-size: 0.85rem;
+}
+
+.review_card img {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: 0.5em;
+}
+
+}
