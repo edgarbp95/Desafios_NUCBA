@@ -265,8 +265,8 @@ main{
 }
 
 .review_card img {
-    width: 15%;
-    height: 15%;
+    width:52px;
+    height: 52px;
     position: relative;
     top: 0.5em;
 }
