@@ -208,7 +208,7 @@ span {
     .view_icon{
         position: absolute;
         top: 1px;
-
+        height: 97%;
     }
 
     .tittle_description{
