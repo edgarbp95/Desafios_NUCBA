@@ -32,7 +32,7 @@ body{
 .navbar {
     display: flex;
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: 1.1rem;
     padding: 0.7em;
     justify-content: space-between;
     border-bottom: 5px solid var(--Bittersweet) ;
@@ -50,7 +50,7 @@ a{
     list-style: none;
     gap: 1.5em;
     align-items: center;
-    margin-right: 5em;
+    margin-right: 3em;
     color: var(--White);
     /* font-size: 100%; */
     
@@ -63,7 +63,7 @@ a{
 .navbar img{
     width: 2.5em;
     height: 2.5m;
-    margin-left: 5em;
+    margin-left: 3em;
     border-radius: 50%;
     border: 2px solid var(--White);
 
@@ -258,7 +258,7 @@ ul{
 }
 
 .contactus h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     font-weight: 600;
     padding-top: 0.5em;
@@ -266,4 +266,149 @@ ul{
     background-color:var(--Gunmetal) ;
     color: var(--White);
     border-bottom: 3px solid var(--Bittersweet);
+}
+
+@media only screen and (max-width:950px) {
+    
+    
+  .section_1{
+      display: flex;
+      flex-direction: column;
+      padding:5em;
+    }
+   .section_1_2{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       width: 90%;
+    }  
+
+   .section_1_2 h1{
+       grid-column: 1/-1;
+   }
+
+   .section_1_2 p{
+       grid-column: 1/-1;
+       width: 100%;
+       padding-bottom: 1em;
+       text-align: justify;
+   }
+  
+   .button_section_1{
+       padding-bottom: 4em;
+       grid-column: 1/-1;
+   }
+
+   .section_1 img{
+       width: 80%;
+       height: 80%;
+   }
+
+   .section_3{
+       overflow: hidden;
+   }
+
+   .contactanos {
+       overflow: hidden;
+   }
+
+   .section_2{
+       padding: 2.5em;
+       line-height: 25px;
+       text-align: justify;
+   }
+
+   .socios{
+       text-align: center;
+   }
+
+   .lista_socios{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 4em;
+       align-self: center;
+   }
+
+   .contactanos{
+       display: flex;
+       flex-direction: column;
+       padding: 2em;
+       text-align: center;
+       gap: 1em;
+   }
+
+   .text_contact {
+     padding-top: 1em;
+     display: flex;
+     gap:5em;
+
+   }
+
+   .contact_icon {
+       padding: 2em;
+   }
+
+}
+
+@media only screen and (max-width:495px) {
+    .navbar{
+        padding: 0.5em;
+    }
+
+    .navbar img{
+        margin-left: 1em;
+    }
+
+    .navbar ul{
+        margin-right: 1em;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .section_1 img {
+       width: 100%;
+       height: 100%;
+    }
+
+    .section_1 {
+        padding: 2.5em;
+    }
+
+    .button_section_1 button{
+        font-size: 0.6rem ;
+        padding:1em;
+    }
+    .button_section_1{
+        padding-bottom: 1.5em;
+        margin-right: 0;
+    }
+
+    .navbar {
+        font-size: 0.8rem;
+    }
+
+    .lista_socios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+    }
+
+    .contact_icon{
+        width: 80%;
+        height: 80%;
+    }
+
+    .section_3 h2{
+        padding: 1em 0.5em 0.5em 1em;
+    }
 }
