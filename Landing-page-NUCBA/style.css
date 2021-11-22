@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+:root{
+    --Gunmetal: #292F36;
+    --Medium-turquoise: #4ECDC4;
+    --White: #FFFFFF;
+    --Bittersweet: #FF6B6B; 
+    --platinum: #E5E5E6;
+
+   
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background-color: var(--platinum) ;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 0.7em;
+    justify-content: space-between;
+    border-bottom: 5px solid var(--Bittersweet) ;
+    background-color: var(--Gunmetal);
+    width: 100%;
+}
+
+a{
+    color: var(--White);
+    text-decoration: none;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    align-items: center;
+    margin-right: 5em;
+    color: var(--White);
+    /* font-size: 100%; */
+    
+}
+
+.navbar li{
+    /* width: 30%; */
+}
+
+.navbar img{
+    width: 2.5em;
+    height: 2.5m;
+    margin-left: 5em;
+    border-radius: 50%;
+    border: 2px solid var(--White);
+
+}
+
+.nav_list {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.container {
+    height: 100vh;background-color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+
+.section_1 {
+    display:flex;
+    align-items: center;
+    /* margin-left: 5em; */
+    /* margin-right: 5em; */
+    justify-content:space-between;
+    /* flex-direction: column; */
+    /* margin-top: 3em; */
+    /* justify-content: center; */
+    background-color: var(--White);
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    /* border-bottom: 1px dashed var(--Gunmetal); */
+}
+
+.section_1 img{
+    width: 400px;
+    height: 280px;
+    /* margin-right: 0; */
+    border-radius: 10px;
+}
+
+.section_1_2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.section_1_2 h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.section_1_2 p{
+    font-size: 1rem;
+    line-height: 25px;
+    margin-right: 2em;
+}
+
+.button_section_1 button{
+   padding: 0.8em;
+   margin-right: 1em;
+   border-style: solid;
+   border-radius: 20px;
+   border-color: var(--Gunmetal);
+   text-transform: uppercase;
+   font-size: 0.8rem;
+   font-family: 'Source Sans Pro';
+   font-weight: 600;
+   margin-bottom: 1em;
+    
+}
+
+.button_section_1 button:hover{
+    background-color: var(--Gunmetal);
+    color: var(--White);
+}
+
+.section_2 {
+    font-size: 1.1rem;
+    padding: 4em 7em 4em 7em;
+    text-align: center;
+    background-color: var(--White);
+    color: var(--Gunmetal);
+    font-weight: 400;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+}
+
+.lista_socios img{
+    
+    width: 15em;
+   
+}
+
+
+.lista_socios{
+    display: flex; 
+    padding: 1.5em;
+    /* gap:7em; */
+    justify-content: space-evenly;
+    /* border-bottom: px solid var(--Bittersweet); */
+    padding-bottom: 3em;
+
+}
+
+.section_3{
+    background-color: var(--White);
+}
+
+.section_3 h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1.3em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--Gunmetal);
+    
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1em;
+    color: var(--White) ;
+    padding-top: 2em;
+    
+}
+
+.contactanos {
+    padding-left: 15em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292f36f5;
+    align-items: center;
+    padding-bottom: 5em;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.lista_contacto{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2em;
+}
+
+.lista_contacto img{
+    width: 3em;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    padding:0.5em;
+    width: 2em;
+    
+}
+
+.lista_contacto li{
+    display: flex;
+    gap: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--White);
+    align-items: center;
+
+}
+
+.lista_contacto a{
+    text-decoration: none;
+    color:var(--White);
+    cursor: pointer;
+}
+
+
+.contact_icon{
+    height: 15em;
+    border-radius: 30px;
+    padding-top: 1em;
+    padding-right: 4em;
+}
+
+.contactus{
+    background-color: var(--White);
+    text-align: center;
+    
+    
+}
+
+.contactus h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color:var(--Gunmetal) ;
+    color: var(--White);
+    border-bottom: 3px solid var(--Bittersweet);
+}
