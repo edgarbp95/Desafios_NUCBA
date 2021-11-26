@@ -364,14 +364,15 @@ button img{
 
     .figura_fondo{
         top:-1px;
-        margin:0 90% 20% 0;
+        margin:-10% 75% 0 0;
+        height: 850px;
     }
 
     .section_3{
         width: 40%;
         text-align: left;
         position: relative;
-        left: 30px;
+        left: 90px;
         
     }
 
@@ -386,6 +387,6 @@ button img{
 
     .card_app {
         bottom:50px;
-        left:0;
+        left:150px;
     }
 }
