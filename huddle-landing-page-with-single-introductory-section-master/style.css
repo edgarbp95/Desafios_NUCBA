@@ -45,7 +45,7 @@ h1{
 }
 
 .section_2 img{
-    width: 85%;
+    width: 295px;
     padding-bottom: 3em;
     
 }
@@ -92,6 +92,22 @@ button{
     
 }
 
+@media only screen and (max-width:300px) {
+    .section_2 img{
+        width: 230px;
+    }
+    
+}
+
+
+@media only screen and (min-width:600px){
+
+  
+    .section_2 img{
+        width: 450px;
+    }
+    
+}
 
 
 @media only screen and (min-width:1000px) {
