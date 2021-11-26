@@ -62,7 +62,7 @@ main{
     justify-content: center;
     box-shadow: 5px 10px 20px hsla(206, 7%, 79%, 0.72);
     position: relative;
-    margin-top: 60px;
+    margin-top: 20px;
     left: 10px;
 }
 
@@ -295,16 +295,17 @@ span{
 }
 
 h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
     color:var(--Very-Dark-Desaturated-Violet);
     position: relative;
     margin-left:0;
     margin-right:0px;
+    
 }
 
 .section_3 p{
-    width: 85%;
-    line-height: 30px;
+    width: 90%;
+    line-height: 25px;
     color: var(--Dark-Grayish-Violet);
     padding-bottom: 0.5em;
     margin: 0 auto;
