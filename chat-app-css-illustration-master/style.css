@@ -308,7 +308,8 @@ h1{
     line-height: 25px;
     color: var(--Dark-Grayish-Violet);
     padding-bottom: 0.5em;
-    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .section_2_typemsj{
@@ -357,6 +358,19 @@ button img{
     right:1px;
     }
 
+
+
+@media only screen and (max-width:300px){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .section_3 p{
+        font-size: 0.8rem;
+    }
+    
+}
+
 @media only screen and (min-width:1000px) {
    
     .container{
@@ -394,3 +408,5 @@ button img{
         left:150px;
     }
 }
+
+
